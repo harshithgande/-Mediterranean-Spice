@@ -11,7 +11,7 @@ import React from 'react';
         >
           <section style={{ position: 'relative', height: '500px', overflow: 'hidden' }}>
             <div style={{
-              backgroundImage: 'url("https://placehold.co/1920x1080/2A6041/FAF8F1?text=Hero+Image")',
+              backgroundImage: 'heroimage.jpg',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               height: '100%',
