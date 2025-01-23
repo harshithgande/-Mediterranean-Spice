@@ -63,7 +63,7 @@ import React from 'react';
 
           <section style={{ position: 'relative', height: '400px', overflow: 'hidden' }}>
             <div style={{
-              backgroundImage: 'url("https://placehold.co/1920x1080/D4A857/121212?text=About+Us+Background")',
+              backgroundImage: 'url("src/Images/heroimage.jpg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               height: '100%',
