@@ -9,27 +9,37 @@ import React from 'react';
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <section style={{ position: 'relative', height: '500px', overflow: 'hidden' }}>
-            <div style={{
-              backgroundImage: 'heroimage.jpg',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              height: '100%',
-              width: '100%',
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              zIndex: 0
-            }} />
-            <div style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              textAlign: 'center',
-              zIndex: 1,
-              color: '#FAF8F1'
-            }}>
+          <source src="/path/to/hero-video.mp4" type="video/mp4" />
+            
+          <section style={{ position: 'relative', height: '600px', overflow: 'hidden' }}>
+            <video
+              autoPlay
+              muted
+              loop
+              style={{
+                height: '100%',
+                width: '100%',
+                objectFit: 'cover',
+                top: 0,
+                left: 0,
+                zIndex: 0
+              }}
+            >
+             <source src="/3195650-uhd_3840_2160_25fps.mp4" type="video/mp4" /> 
+
+             </video>
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            textAlign: 'center',
+            zIndex: 1,
+            color: '#FAF8F1',
+          }}
+        >   
+          
               <h1 style={{ fontSize: '3em', marginBottom: '20px' }}>Experience the Taste of Wellness</h1>
               <p style={{ fontSize: '1.5em', marginBottom: '30px' }}>Farm-to-Table Freshness Every Day</p>
               <button style={{ padding: '15px 30px', fontSize: '1.2em' }}>Order Online</button>
